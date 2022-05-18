@@ -37,7 +37,7 @@ class _SearchPlaceScreenState extends State<SearchPlaceScreen> {
   }
 
   getSuggestionData(input) async {
-    var api = "AIzaSyDQ2c_pOSOFYSjxGMwkFvCVWKjYOM9siow";
+    var api = "API_KEY";
     String baseURL =
         'https://maps.googleapis.com/maps/api/place/autocomplete/json';
     String request =
